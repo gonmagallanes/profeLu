@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ECEBE4;
+}
+
+@font-face {
+  font-family: "lamina";
+  src: url(../fonts/lumina/LUMINA.ttf);
+}
+.mainHeader {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #1C1C1C;
+  font-family: "lamina";
+  color: #ECEBE4;
+}
+
+.mainMain {
+  display: flex;
+  padding-top: 10vh;
+}/*# sourceMappingURL=style.css.map */
