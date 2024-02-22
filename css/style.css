@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #ECEBE4;
 }
 
 @font-face {
@@ -21,7 +20,25 @@
   color: #ECEBE4;
 }
 
+.gridMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
 .mainMain {
+  background-color: #704C5E;
+  color: #ECEBE4;
   display: flex;
-  padding-top: 10vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 35vh;
+  font-family: "lamina";
+}
+
+.mainMain:hover {
+  border: 1px solid #ECEBE4;
+  box-shadow: 5px 5px 5px #F1C8DB;
+  transition: 0.2s;
 }/*# sourceMappingURL=style.css.map */
