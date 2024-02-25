@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+@mixin flexcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "lamina";
+    src: url(../fonts/lumina/LUMINA.ttf);
+}
+
+.mainHeader {
+    @include flexcenter;
+    z-index: 999999999;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    background-color: #704C5E;
+    font-family: "lamina";
+    color: #ECEBE4;
+    border-bottom: #47002385 1px solid;
+}
+
+.classHeader {
+    display: flex;
+    align-items: center;   
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    background-color: #704C5E;
+    font-family: "lamina";
+    color: #ECEBE4;
+    border-bottom: #47002385 1px solid;
+
+        .burgerMenu{
+            display: flex;
+            justify-content: start;
+            margin-right: 32vw;
+            margin-left: 15px;
+        }
+}
+
+
+@media screen and (max-width:750px) {
+    .burgerMenu {
+        margin-right: 10vw;
+    }
+}
+       
+

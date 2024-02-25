@@ -5,6 +5,7 @@
     
 }
 
+
 @mixin flexcenter {
     display: flex;
     align-items: center;
@@ -15,17 +16,7 @@
     font-family: "lamina";
     src: url(../fonts/lumina/LUMINA.ttf);
 }
-.mainHeader {
-    @include flexcenter;
-    z-index: 999999999;
-    position: fixed;
-    width: 100vw;
-    height: 10vh;
-    background-color: #704C5E;
-    font-family: "lamina";
-    color: #ECEBE4;
-    border-bottom: #47002385 1px solid;
-}
+
 
 .gridMain {
     display: grid;
