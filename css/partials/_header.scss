@@ -31,7 +31,7 @@
 
 .classHeader {
     display: flex;
-    align-items: center;   
+    align-items: center;  
     z-index: 1;
     position: fixed;
     width: 100vw;
@@ -43,11 +43,18 @@
 
         .burgerMenu{
             display: flex;
-            justify-content: start;
-            margin-right: 32vw;
-            margin-left: 15px;
+            margin-right: 34.1vw;
+            margin-left: 2vw;
         }
+
+        .classTitle {
+            text-decoration: none;
+            color: #ECEBE4;
+        }
+        
 }
+
+
 
 .burgerMenuText {
     display: flex;
@@ -64,8 +71,11 @@
 }
 
 @media screen and (max-width:750px) {
-    .burgerMenu {
-        margin-right: 10vw;
+    
+    .classHeader{
+        display: flex;
+        justify-content: start;
+        margin-right: 2vw;
     }
 
     

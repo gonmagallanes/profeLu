@@ -96,9 +96,12 @@
 }
 .classHeader .burgerMenu {
   display: flex;
-  justify-content: start;
-  margin-right: 32vw;
-  margin-left: 15px;
+  margin-right: 34.1vw;
+  margin-left: 2vw;
+}
+.classHeader .classTitle {
+  text-decoration: none;
+  color: #ECEBE4;
 }
 
 .burgerMenuText {
@@ -115,7 +118,9 @@
 }
 
 @media screen and (max-width: 750px) {
-  .burgerMenu {
-    margin-right: 10vw;
+  .classHeader {
+    display: flex;
+    justify-content: start;
+    margin-right: 2vw;
   }
 }/*# sourceMappingURL=style.css.map */
